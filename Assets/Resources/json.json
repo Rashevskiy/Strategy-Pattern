@@ -1,0 +1,48 @@
+{
+    "objects": [{
+            "type": "sphere",
+            "behaviours": [{
+                    "type": "move",
+                    "from": [0, 0, 0],
+                    "to": [1, 1, 1],
+                    "time": 2
+                },{
+                    "type": "rotate",
+                    "from": [0, 0, 0],
+                    "to": [45, 45, 45],
+                    "time": 4
+                }
+            ]
+        },{
+            "type": "cube",
+            "behaviours": [{
+                    "type": "rotate",
+                    "from": [0, 0, 0],
+                    "to": [90, 90, 90],
+                    "time": 1
+                },{
+                    "type": "move",
+                    "from": [3, 3, 3],
+                    "to": [6, 6, 6],
+                    "time": 5
+                }
+            ]
+        },{
+            "type": "cube",
+            "behaviours": [{
+                    "type": "rotate",
+                    "from": [78, 78, 78],
+                    "to": [90, 90, 90],
+                    "time": 8
+                },
+				{
+                    "type": "move",
+                    "from": [-3, 3, 3],
+                    "to": [6, -6, 6],
+                    "time": 4
+                }
+            ]
+        }
+    ]
+}
+
